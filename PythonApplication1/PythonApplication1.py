@@ -4,21 +4,23 @@ import PythonApplication2
 b = 'hello world '
 z = 1
 #### concating a string with an int using Python's str function:
-print(b + str(z))
+print('concating' + b + str(z))
+
 #### Python length function:
 print(len(b))
 print(b[1])
 
 #### Function example
-def fib(n):
+def fibanaci(n):
      a, b = 0, 1
-     while a < n:
+     while a < n:  # indents show what should be included with a loop
          print(a, end=' ')
          a, b = b, a+b
      print()
-fib(1000)
-s = 5
+fibanaci(1000)
+
 #### Referencing another class' function
+s = 5
 PythonApplication2.test(2)
 
 #### Iterating over an array
@@ -28,7 +30,6 @@ for num in numbers:
  sum += num
 print(sum)
 
-#### updating the 
 
 #list = ['larry', 'curly', 'moe']
 #if 'curly' in list:
