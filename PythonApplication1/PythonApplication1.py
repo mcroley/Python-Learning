@@ -19,7 +19,7 @@ def fibanaci(n):
      print()
 fibanaci(1000)
 
-#### Referencing another class' function
+#### Referencing another class' function - this references the function in Python2
 s = 5
 PythonApplication2.test(2)
 
