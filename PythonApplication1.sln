@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication1", "PythonApplication1\PythonApplication1.pyproj", "{EE69818C-0149-4D2B-969B-7D6A473C2742}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RegularExp", "BabyNames\RegularExp.pyproj", "{3C6628AA-B8FC-43C4-9A64-72DF0C6A51C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +15,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EE69818C-0149-4D2B-969B-7D6A473C2742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE69818C-0149-4D2B-969B-7D6A473C2742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6628AA-B8FC-43C4-9A64-72DF0C6A51C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6628AA-B8FC-43C4-9A64-72DF0C6A51C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B7CB0BA-04CC-462F-BFEC-37A78214F346}
 	EndGlobalSection
 EndGlobal

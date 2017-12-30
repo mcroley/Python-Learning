@@ -19,20 +19,30 @@ def fibanaci(n):
      print()
 fibanaci(1000)
 
-#### Referencing another class' function
+def testFun():
+    print(2 + 3)
+testFun()
+
+#### Referencing another class' function - this references the function in Python2
 s = 5
 PythonApplication2.test(2)
 
-#### Iterating over an array
+#### Iterating over a List
 numbers = [1, 2, 3]
 sum = 0
 for num in numbers:
  sum += num
 print(sum)
 
+numbers.insert(1, 4)
+if 3 in numbers: 
+    print('true')
+# numbers.insert('Bob', 4) this won't work. Python knows the data type and will not allow a different data type in a List
+print(numbers)
 
-#list = ['larry', 'curly', 'moe']
-#if 'curly' in list:
-# print('yay')
+print(sorted(numbers))
+
+
+
 
 
