@@ -17,6 +17,7 @@ def fibanaci(n):
          print(a, end=' ')
          a, b = b, a+b
      print()
+
 fibanaci(1000)
 
 def testFun():
