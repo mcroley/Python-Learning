@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ee69818c-0149-4d2b-969b-7d6a473c2742</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>exceptionHandling.py</StartupFile>
+    <StartupFile>PythonApplication1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
