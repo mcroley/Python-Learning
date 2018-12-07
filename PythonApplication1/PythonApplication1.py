@@ -1,4 +1,5 @@
 import sys
+
 import PythonApplication2
 #### String example
 b = 'hello world '
@@ -29,15 +30,18 @@ s = 5
 PythonApplication2.test(2)
 
 #### Iterating over a List
-numbers = [1, 2, 3]
+numbers = [1, 2, 3,]
 sum = 0
-for num in numbers:
- sum += num
+for x in numbers:
+    sum += x
 print(sum)
 
 numbers.insert(1, 4)
+
 if 3 in numbers: 
     print('true')
+else:
+    print("false")
 # numbers.insert('Bob', 4) this won't work. Python knows the data type and will not allow a different data type in a List
 print(numbers)
 
@@ -45,5 +49,12 @@ print(sorted(numbers))
 
 
 
+dictz = {}
+dictz['a'] = "test"
+dictz['b'] = "right"
+
+print(dictz['a'])
+for a in dictz:
+    print(a)
 
 
