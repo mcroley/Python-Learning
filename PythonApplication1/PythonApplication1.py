@@ -34,7 +34,7 @@ numbers = [1, 2, 3,]
 sum = 0
 for x in numbers:
     sum += x
-print(sum)
+print("here are the sum of the numbers" + sum)
 
 numbers.insert(1, 4)
 
